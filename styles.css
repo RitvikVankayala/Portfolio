@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 52);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(18, 18, 56);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(186, 106, 143);
+  font-size: 1.01rem;
+}
+
+main hr {
+  border: 0;
+  background: rgb(167, 100, 167);
+  height: 1.1px;
+  margin: 70px 80px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: 115px 0px;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  justify-content: around;
+  align-items: center;
+  margin: 100px 120px;
+}
+
+.leftsection {
+  font-size: 2.5rem;
+}
+
+.leftsection .btn {
+  margin: 10px 0px;
+  padding: 12px;
+  background: rgb(26, 26, 122);
+  color: white;
+  border: 1px whitesmoke;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rightsection img {
+  width: 95%;
+}
+
+.leftsection1 img {
+  width: 70%;
+  object-fit: cover;
+}
+
+.rightsection1 div img {
+  width: 7%;
+  padding-left: 50px;
+}
+
+.rightsection1 div {
+  margin-bottom: 20px;
+}
+
+.rightsection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+
+.first > div {
+  width: 30%;
+}
+
+.rightsection1 .spans {
+  margin-bottom: 60px;
+}
+
+.clrchange {
+  color: rgb(222, 141, 222);
+}
+
+#element {
+  color: rgb(222, 141, 222);
+}
+
+#element1 {
+  font-size: 2rem;
+}
+
+.contact,
+.github,
+.insta,
+.linkedin,
+.gmail {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+
+.github .content a {
+  text-decoration: none;
+  color: white;
+}
+
+.insta .content a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin .content a {
+  text-decoration: none;
+  color: white;
+}
+
+.gmail .content a {
+  text-decoration: none;
+  color: white;
+}
+
+.github .content a:hover {
+  color: rgb(186, 106, 143);
+  font-size: 1.25rem;
+}
+
+.insta .content a:hover {
+  color: rgb(186, 106, 143);
+  font-size: 1.25rem;
+}
+
+.linkedin .content a:hover {
+  color: rgb(186, 106, 143);
+  font-size: 1.25rem;
+}
+
+.gmail .content a:hover {
+  color: rgb(186, 106, 143);
+  font-size: 1.25rem;
+}
+
+.third {
+  font-family: "Poppins", sans-serif;
+}
+.heading {
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 4px;
+  width: 100px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+
+.skillBox {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.skillname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.skillimg {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skillimg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 45px 0 0 45px;
+}
+.skillIcon {
+  width: 50px;
+  z-index: 2;
+}
+.skillname h3 {
+  color: #fff;
+  margin: 0.5rem;
+}
+.third p {
+  font-size: medium;
+  font-style: italic;
+}
+.skillhead {
+  color: burlywood;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.fourth {
+  padding: 10px;
+}
+.fourth .about_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about_container .imgcontainer {
+  width: 400px;
+  height: 500px;
+}
+.about_container .about_contents {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgcontainer img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+.about_contents .about_me {
+  font-size: 1.8rem;
+  font-style: oblique;
+  text-decoration: underline;
+  color: blanchedalmond;
+  padding-bottom: 20px;
+}
+.about_me_contents {
+  color: rgb(222, 156, 186);
+  padding-left: 10px;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 25px;
+  grid-gap: 20px;
+  padding-left: 10px;
+}
+.items div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 930px) {
+  .imgcontainer {
+    display: none;
+  }
+  .leftsection1 {
+    display: none;
+  }
+  .second {
+    justify-content: center;
+  }
+  .rightsection {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .rightsection img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+  }
+  .container {
+    grid-template-columns: repeat(5, 1fr);
+    font-size: 1rem;
+  }
+  .first > div {
+    width: 70%;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rightsection {
+    display: none;
+  }
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .left {
+    display: none;
+  }
+  .leftsection {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 607px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1rem;
+  }
+  .skillimage {
+    width: 80px;
+    height: 70px;
+  }
+  .skillimage {
+    width: 80px;
+    height: 70px;
+  }
+  .skillBox {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  .content {
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+  main hr {
+    margin: 40px 80px;
+  }
+  .about_me {
+    font-size: 1.2rem;
+  }
+  .about_me_contents {
+    font-size: 1rem;
+  }
+  .rightsection1 .spans {
+    margin-bottom: 40px;
+  }
+  .rightsection1 {
+    height: 400px;
+    width: 400px;
+  }
+  nav ul li {
+    margin: 0px 15px;
+  }
+  .first > div {
+    width: 70%;
+    margin-left: 18px;
+  }
+}
+@media screen and (max-width: 423px) {
+  .first > div {
+    width: 70%;
+    margin-left: 10px;
+  }
+  .leftsection .btn {
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  nav ul li {
+    margin: 0px 10px;
+  }
+  .hr_res {
+    margin: 80px 80px;
+    margin-top: 120px;
+  }
+  .rightsection1 div img {
+    width: 7%;
+    padding-left: 20px;
+  }
+  .skillhead {
+    font-size: 1.7rem;
+  }
+  .container {
+    grid-gap: 0.5rem;
+    padding: 0rem 10px;
+    font-size: 1rem;
+  }
+  .skillimg {
+    width: 80px;
+    height: 80px;
+  }
+  .skillimg:after {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 382px) {
+  .skillimg {
+    width: 50px;
+    height: 50px;
+  }
+  .skillimg:after {
+    height: 50px;
+  }
+  .skillIcon {
+    width: 26px;
+  }
+  .skillname h4 {
+    font-size: small;
+  }
+  .rightsection1 div img {
+    padding-left: 0;
+  }
+  nav ul li {
+    margin: 0px 8px;
+  }
+  .hr_res {
+    margin: 80px 80px;
+    margin-top: 190px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .github {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+  .rightsection1 div img {
+    width: 13%;
+  }
+  .github .content a:hover {
+    font-size: 1rem;
+  }
+
+  .insta .content a:hover {
+    font-size: 1rem;
+  }
+
+  .linkedin .content a:hover {
+    font-size: 1rem;
+  }
+
+  .gmail .content a:hover {
+    font-size: 1rem;
+  }
+}
